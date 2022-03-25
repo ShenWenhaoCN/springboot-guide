@@ -183,6 +183,7 @@ public class AdminInterceptor extends HandlerInterceptorAdapter {
 ```
 
 **配置拦截器**
+添加拦截器的顺序就是拦截器拦截顺序
 
 ```java
 import github.javaguide.springbootfilter.interceptor.AdminInterceptor;
